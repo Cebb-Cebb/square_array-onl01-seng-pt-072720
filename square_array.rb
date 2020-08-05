@@ -1,10 +1,10 @@
 def square_array(numbers)
   new_numbers = []
   numbers.each do |number|
-    puts number **2 
+    number **2 
     new_numbers.push(number ** 2 )
   end 
-  return new_numbers
+  new_numbers
 end
 
 
